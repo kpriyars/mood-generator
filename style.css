@@ -10,19 +10,25 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f0f2f5; /* Default background */
-    transition: background-color 0.8s ease; /* Smooth transition */
+    /* Use 'background' instead of 'background-color' to support gradients */
+    background: #f0f2f5; 
+    background-attachment: fixed;
+    /* This ensures the smooth fade effect works for both colors and gradients */
+    transition: background 0.8s ease; 
     padding: 20px;
+    margin: 0;
 }
 
 .mood-card {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.85); /* Slightly more transparent */
+    backdrop-filter: blur(10px); /* This blurs the background behind the card */
     padding: 2.5rem;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     text-align: center;
     max-width: 400px;
     width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 h1 {
