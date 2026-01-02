@@ -17,8 +17,6 @@
 ---
 
 ## 🌟 Overview
-The **Mood Palette Generator** is a responsive single-page application (SPA) designed to enhance user experience through color psychology.
-## 🌟 Overview
 The **Mood Palette Generator** is a responsive single-page application (SPA) designed to enhance user experience through color psychology. By mapping specific emotional keywords to visual changes, the app provides immediate feedback using smooth CSS transitions and modern "Glassmorphism" UI principles.
 
 ## 🚀 Live Demo
