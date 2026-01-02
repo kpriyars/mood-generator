@@ -40,4 +40,4 @@ Check out the app here: [kpriyars.github.io/mood-generator/](https://kpriyars.gi
 2. Open `index.html` in your browser.
 
 ---
-**Created by Krishna Priya**
+**Created by Krishna Priya R S **
